@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "start": "pagic build --watch --serve"
+  }
+}
