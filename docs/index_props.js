@@ -7,7 +7,7 @@ export default {
     },
     config: { "root": "/", ...projectConfig, branch: 'master' },
     'pagePath': "README.md",
-    'layoutPath': "_layout.tsx",
+    'layoutPath': "layout.tsx",
     'outputPath': "index.html",
     'title': "原始数据类型",
     'content': React.createElement("article", { dangerouslySetInnerHTML: {
