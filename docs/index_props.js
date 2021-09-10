@@ -1,6 +1,6 @@
-import projectConfig from '/pagic.config.js';
+import projectConfig from '/blog/pagic.config.js';
 export default {
-    config: { "root": "/", ...projectConfig, branch: 'HEAD' },
+    config: { "root": "/", ...projectConfig, branch: 'master' },
     'pagePath': "README.md",
     'layoutPath': "_layout.tsx",
     'outputPath': "index.html",
@@ -12,7 +12,7 @@ export default {
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js" }),
-        React.createElement("script", { src: "/index.js", type: "module" })),
+        React.createElement("script", { src: "/blog/index.js", type: "module" })),
     'footer': React.createElement("footer", null,
         "Powered by\u00A0",
         React.createElement("a", { href: "https://github.com/xcatliu/pagic", target: "_blank" }, "Pagic")),
@@ -21,9 +21,11 @@ export default {
             __html: '<p><a href="/home.html">home</a></p>'
         } }),
     'toc': null,
-    'author': undefined,
-    'contributors': [],
-    'date': "2021-09-10T03:29:36.704Z",
+    'author': "xutongbao",
+    'contributors': [
+        "xutongbao"
+    ],
+    'date': "2021-09-10T03:31:50.000Z",
     'updated': null,
     'excerpt': "home",
     'cover': undefined
