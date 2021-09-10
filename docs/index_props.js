@@ -47,7 +47,7 @@ export default {
         "xutongbao"
     ],
     'date': "2021-09-10T08:15:51.000Z",
-    'updated': null,
+    'updated': "2021-09-10T08:36:02.000Z",
     'excerpt': "JavaScript 的类型分为两种：原始数据类型（Primitive data types）和对象类型（Object types）。 原始数据类型包括：布尔值、数值、字符串、null、undefined 以及 ES6 中的新类型 [Symbol][] 和 ES10 中的新类型 BigInt。 本节...",
     'cover': undefined,
     'sidebar': [
