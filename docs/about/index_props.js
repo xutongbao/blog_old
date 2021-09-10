@@ -1,17 +1,14 @@
 import projectConfig from '/blog/pagic.config.js';
 export default {
     'prev': undefined,
-    'next': {
-        "text": "起步",
-        "link": "src/home.html"
-    },
+    'next': undefined,
     config: { "root": "/", ...projectConfig, branch: 'master' },
-    'pagePath': "README.md",
+    'pagePath': "about/README.md",
     'layoutPath': "_layout.tsx",
-    'outputPath': "index.html",
-    'title': "首页",
+    'outputPath': "about/index.html",
+    'title': "关于",
     'content': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<h1 id="%E9%A6%96%E9%A1%B5">首页<a class="anchor" href="#%E9%A6%96%E9%A1%B5">§</a></h1>'
+            __html: '<h1 id="%E5%85%B3%E4%BA%8E">关于<a class="anchor" href="#%E5%85%B3%E4%BA%8E">§</a></h1>'
         } }),
     'head': React.createElement("link", { href: "/blog/favicon.ico", rel: "icon", type: "image/png" }),
     'script': React.createElement(React.Fragment, null,
@@ -19,16 +16,16 @@ export default {
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js" }),
         React.createElement("script", { src: "/blog/index.js", type: "module" })),
     'footer': React.createElement("footer", null),
-    'contentTitle': React.createElement("h1", { key: "0", id: "%E9%A6%96%E9%A1%B5" },
-        "\u9996\u9875",
-        React.createElement("a", { className: "anchor", href: "#%E9%A6%96%E9%A1%B5" }, "\u00A7")),
+    'contentTitle': React.createElement("h1", { key: "0", id: "%E5%85%B3%E4%BA%8E" },
+        "\u5173\u4E8E",
+        React.createElement("a", { className: "anchor", href: "#%E5%85%B3%E4%BA%8E" }, "\u00A7")),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
             __html: ''
         } }),
     'toc': React.createElement("nav", { key: "0", className: "toc" },
         React.createElement("ol", null,
             React.createElement("li", null,
-                React.createElement("a", { href: "#%E9%A6%96%E9%A1%B5" }, "\u9996\u9875")))),
+                React.createElement("a", { href: "#%E5%85%B3%E4%BA%8E" }, "\u5173\u4E8E")))),
     'author': undefined,
     'contributors': [],
     'date': "2021-09-10T08:14:27.853Z",
