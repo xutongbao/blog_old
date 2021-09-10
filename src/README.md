@@ -1,3 +1,3 @@
 # Hello world
 
-[home](/home.html)
+[home](/blog/home.html)

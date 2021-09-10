@@ -6,7 +6,7 @@ export default {
     'outputPath': "index.html",
     'title': "Hello world",
     'content': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<h1>Hello world</h1>\n<p><a href="/home.html">home</a></p>'
+            __html: '<h1>Hello world</h1>\n<p><a href="/blog/home.html">home</a></p>'
         } }),
     'head': React.createElement("link", { href: "/blog/favicon.ico", rel: "icon", type: "image/png" }),
     'script': React.createElement(React.Fragment, null,
@@ -18,7 +18,7 @@ export default {
         React.createElement("a", { href: "https://github.com/xcatliu/pagic", target: "_blank" }, "Pagic")),
     'contentTitle': React.createElement("h1", { key: "0" }, "Hello world"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<p><a href="/home.html">home</a></p>'
+            __html: '<p><a href="/blog/home.html">home</a></p>'
         } }),
     'toc': null,
     'author': "xutongbao",
