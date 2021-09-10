@@ -34,7 +34,7 @@ export default {
         "xutongbao"
     ],
     'date': "2021-09-10T03:31:50.000Z",
-    'updated': null,
+    'updated': "2021-09-10T08:15:51.000Z",
     'excerpt': "",
     'cover': undefined,
     'sidebar': [

@@ -3,7 +3,6 @@ import { React } from 'https://deno.land/x/pagic@v1.4.0/mod.ts'
 export default {
   srcDir: '.',
   outDir: 'docs',
-  //include: ['**/*'],
   root: '/blog/',
   title: '徐同保的博客',
   description: 'web前端,react,vue,javascript,博客',
@@ -23,11 +22,6 @@ export default {
         </>
       ),
     },
-    {
-      text: '关于',
-      link: '/about/index.html',
-      align: 'right',
-    },
   ],
   github: 'https://github.com/xutongbao/blog',
   sidebar: {
@@ -40,8 +34,7 @@ export default {
         text: '起步',
         link: 'src/home.md',
       },
-    ],
-    '/about/': ['about/README.md'],
+    ]
   },
   md: {
     anchorLevel: [1, 2, 3, 4, 5, 6],

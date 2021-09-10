@@ -29,9 +29,11 @@ export default {
         React.createElement("ol", null,
             React.createElement("li", null,
                 React.createElement("a", { href: "#%E9%A6%96%E9%A1%B5" }, "\u9996\u9875")))),
-    'author': undefined,
-    'contributors': [],
-    'date': "2021-09-10T08:14:27.853Z",
+    'author': "xutongbao",
+    'contributors': [
+        "xutongbao"
+    ],
+    'date': "2021-09-10T08:15:51.000Z",
     'updated': null,
     'excerpt': "",
     'cover': undefined,
